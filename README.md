@@ -19,12 +19,11 @@
 Установите GNOME Widget Center, затем из корня проекта выполните:
 
 ```bash
-mkdir -p ~/.local/share/gnome-widget-center/widgets ~/.config/gnome-widget-center/widgets
-cp -a widgets/_blue-weather widgets/local.* ~/.local/share/gnome-widget-center/widgets/
-cp -an settings/local.*.json ~/.config/gnome-widget-center/widgets/
+python3 install.py --dry-run
+python3 install.py
 ```
 
-Настройки копируются только при отсутствии файла. Чтобы применить сохранённое оформление поверх текущего, сначала сохраните копию `~/.config/gnome-widget-center/widgets/`, затем скопируйте файлы из `settings/` с `cp -a`. Перезапустите GNOME Shell или выйдите из сеанса и войдите снова. Положение на рабочем столе при первой установке берётся из `default-position` в `metadata.json`; текущая раскладка всего Widget Center хранится отдельно в `~/.config/gnome-widget-center/layout.json`.
+Скрипт обновляет только семь виджетов из проекта и общий погодный модуль. Существующие настройки пользователя сохраняются; для их замены файлами из `settings/` используйте `python3 install.py --force-settings`. Перед заменой скрипт сохраняет старые файлы в `~/.local/state/gnome-widget-center-widgets/backups/`. После установки выйдите из сеанса GNOME и войдите снова. Положение на рабочем столе при первой установке берётся из `default-position` в `metadata.json`; текущая раскладка всего Widget Center хранится отдельно в `~/.config/gnome-widget-center/layout.json`.
 
 ## Обновление проекта из локальной установки
 
