@@ -1,0 +1,63 @@
+{
+  "version": "1.0",
+  "tabs": [
+    {
+      "id": "general",
+      "label": "Погода",
+      "icon": "weather-clear-symbolic",
+      "groups": [
+        {
+          "id": "location",
+          "label": "Место и единицы измерения",
+          "fields": [
+            {
+              "id": "location",
+              "label": "Координаты",
+              "description": "Широта,долгота. Можно выбрать город через поиск.",
+              "dataType": "string",
+              "fieldType": "location",
+              "pattern": "^-?\\d{1,2}(\\.\\d+)?\\s*,\\s*-?\\d{1,3}(\\.\\d+)?$",
+              "default": "59.93863,30.31413"
+            },
+            {
+              "id": "cityName",
+              "label": "Название города",
+              "dataType": "string",
+              "fieldType": "text",
+              "default": "Санкт-Петербург",
+              "description": "Подпись на карточке погоды"
+            },
+            {
+              "id": "tempUnit",
+              "label": "Температура",
+              "dataType": "string",
+              "fieldType": "dropdown",
+              "default": "celsius",
+              "options": [
+                {
+                  "value": "celsius",
+                  "label": "Цельсий (°C)"
+                },
+                {
+                  "value": "fahrenheit",
+                  "label": "Фаренгейт (°F)"
+                }
+              ],
+              "description": "Единица измерения температуры"
+            },
+            {
+              "id": "proxyUrl",
+              "label": "Прокси для прогноза",
+              "description": "Необязательно: HTTP или SOCKS прокси, если прямое подключение не работает",
+              "dataType": "string",
+              "fieldType": "text",
+              "default": ""
+            }
+          ],
+          "description": ""
+        }
+      ],
+      "description": "Прогноз MET Norway с запасным источником wttr.in"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "local.system-four-rings",
+  "name": "Система · четыре круга",
+  "description": "CPU, память, диск и скорость сети в компактной карточке.",
+  "version": "1.0.0",
+  "author": "Local",
+  "api-version": 3,
+  "entry": "widget.js",
+  "block-type": "1x1",
+  "default-position": {
+    "x": 2174,
+    "y": 624,
+    "monitor": 0
+  }
+}

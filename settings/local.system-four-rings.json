@@ -1,0 +1,20 @@
+{
+  "_schemaVersion": 1,
+  "refreshSeconds": 2,
+  "diskPath": "/",
+  "card-background-color": "#1C1C1EF2",
+  "card-corner-radius-enabled": true,
+  "card-corner-radius": 22,
+  "card-blur-enabled": false,
+  "card-blur-radius": 0,
+  "card-shadow-enabled": true,
+  "card-shadow-color": "#000000",
+  "card-shadow-opacity": 10,
+  "card-shadow-blur": 10,
+  "card-shadow-angle": 90,
+  "card-shadow-distance": 2,
+  "card-border-enabled": true,
+  "card-border-color": "#FFFFFF1A",
+  "card-border-width": 1,
+  "card-opacity": 100
+}

@@ -1,0 +1,15 @@
+{
+  "id": "local.weather-current",
+  "name": "Погода · сейчас",
+  "description": "Температура, состояние и ощущаемая температура.",
+  "version": "1.3.0",
+  "author": "Local",
+  "api-version": 3,
+  "entry": "widget-v4.js",
+  "block-type": "1x1",
+  "default-position": {
+    "x": 1600,
+    "y": 48,
+    "monitor": 0
+  }
+}

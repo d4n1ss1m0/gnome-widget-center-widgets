@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "tabs": [
+    {
+      "id": "appearance",
+      "label": "Внешний вид",
+      "groups": [
+        {
+          "id": "colors",
+          "label": "Цвета",
+          "fields": [
+            { "id": "card-background-color", "label": "Фон", "dataType": "string", "fieldType": "colorpicker", "format": "color", "alpha": true, "default": "#242426F2", "schemeRole": "card-background" },
+            { "id": "monthColor", "label": "Месяц", "dataType": "string", "fieldType": "colorpicker", "format": "color", "default": "#FF453A", "schemeRole": "accent" },
+            { "id": "weekdayColor", "label": "Дни недели", "dataType": "string", "fieldType": "colorpicker", "format": "color", "default": "#B9B9BD", "schemeRole": "text-2" },
+            { "id": "dayColor", "label": "Числа", "dataType": "string", "fieldType": "colorpicker", "format": "color", "default": "#F5F5F7", "schemeRole": "text-1" },
+            { "id": "todayColor", "label": "Выделение сегодня", "dataType": "string", "fieldType": "colorpicker", "format": "color", "default": "#FF453A", "schemeRole": "accent" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "local.weather-week",
+  "name": "Погода · неделя",
+  "description": "Текущая погода, шесть часов и пять дней.",
+  "version": "1.3.0",
+  "author": "Local",
+  "api-version": 3,
+  "entry": "widget-v4.js",
+  "block-type": "2x2",
+  "default-position": {
+    "x": 1600,
+    "y": 432,
+    "monitor": 0
+  }
+}

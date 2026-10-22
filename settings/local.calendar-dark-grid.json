@@ -1,0 +1,22 @@
+{
+    "_schemaVersion": 1,
+    "card-background-color": "#242426F2",
+    "card-corner-radius-enabled": true,
+    "card-corner-radius": 20,
+    "card-blur-enabled": false,
+    "card-shadow-enabled": true,
+    "card-shadow-color": "#000000",
+    "card-shadow-opacity": 12,
+    "card-shadow-blur": 10,
+    "card-shadow-angle": 90,
+    "card-shadow-distance": 2,
+    "card-border-enabled": true,
+    "card-border-color": "#FFFFFF1A",
+    "card-border-width": 1,
+    "card-opacity": 100,
+    "monthColor": "#FF453A",
+    "weekdayColor": "#B9B9BD",
+    "dayColor": "#F5F5F7",
+    "todayColor": "#FF453A",
+    "card-blur-radius": 24
+}
