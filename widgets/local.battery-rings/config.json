@@ -1,0 +1,31 @@
+{
+  "version": "1.0",
+  "tabs": [
+    {
+      "id": "general",
+      "label": "Заряд",
+      "description": "Подключение устройств и заряд обновляются автоматически.",
+      "icon": "battery-full-symbolic",
+      "groups": [
+        {
+          "id": "updates",
+          "label": "Обновление",
+          "fields": [
+            {
+              "id": "refreshSeconds",
+              "label": "Резервная проверка",
+              "description": "Период проверки в дополнение к мгновенным обновлениям от системы.",
+              "dataType": "integer",
+              "fieldType": "spinbutton",
+              "default": 30,
+              "min": 10,
+              "max": 300,
+              "step": 10,
+              "suffix": "с"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

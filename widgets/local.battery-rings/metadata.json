@@ -1,0 +1,11 @@
+{
+  "id": "local.battery-rings",
+  "name": "Заряд устройств",
+  "description": "Заряд ноутбука и подключённых Bluetooth-наушников: кольца с иконками и процентами.",
+  "version": "1.1.2",
+  "author": "Local",
+  "api-version": 3,
+  "entry": "widget-v4.js",
+  "block-type": "2x1",
+  "default-position": { "x": 1536, "y": 814, "monitor": 0 }
+}
